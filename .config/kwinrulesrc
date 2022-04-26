@@ -1,0 +1,775 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[01739b15-d1f4-4135-93ae-b9f58e8a61c4]
+Description=Window settings for kitty
+clientmachine=localhost
+opacityactive=100
+opacityactiverule=2
+title=zsh
+titlematch=1
+types=1
+wmclass=kitty
+wmclassmatch=1
+
+[1]
+Description=Application settings for kitty
+below=true
+belowrule=2
+clientmachine=localhost
+clientmachinematch=0
+fullscreenrule=3
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+opacityactive=100
+shortcut=Meta+F
+skiptaskbar=true
+skiptaskbarrule=2
+title=Kokopelli Interfaces
+wmclass=kitty
+wmclassmatch=1
+
+[10]
+Description=Application settings for kitty
+belowrule=2
+clientmachinematch=0
+desktop[$d]
+desktoprule[$d]
+fsplevel=3
+fsplevelrule=2
+fullscreen=true
+fullscreenrule=2
+minsize=1611,1042
+noborder=true
+noborderrule=2
+opacityactive=91
+opacityactiverule=2
+position=4498,175
+shortcut=Meta+R
+shortcutrule=2
+size=2376,1673
+title=ranger
+types=1
+wmclass=kitty
+wmclassmatch=1
+
+[11]
+Description=Window settings for kitty
+clientmachinematch=0
+desktop[$d]
+desktoprule[$d]
+fsplevel=3
+minsize=1611,1042
+position=4498,175
+positionrule=3
+shortcut=Meta+T
+size=2376,1673
+sizerule=3
+title=ranger
+titlematch=1
+types=1
+wmclass=kitty
+wmclassmatch=1
+
+[12]
+Description=Application settings for reaper
+clientmachinematch=0
+fsplevel=3
+fsplevelrule=2
+minsize=1611,1042
+shortcut=Meta+T
+shortcutrule=2
+size=1594,1252
+title=FabFilter Pro-Q 3
+titlematch=2
+wmclass=reaper
+wmclasscomplete=true
+wmclassmatch=1
+
+[13]
+Description=Window settings for reaper
+clientmachinematch=0
+minsize=1611,1042
+minsizerule=2
+size=1594,1252
+title=FabFilter Pro-L 2
+titlematch=2
+types=1
+wmclass=reaper
+wmclasscomplete=false
+wmclassmatch=1
+
+[14]
+Description=Window settings for reaper
+clientmachinematch=0
+size=1594,1252
+sizerule=2
+title=Kontakt 5 (Native Instruments GmbH)
+titlematch=2
+types=1
+wmclass=reaper
+wmclasscomplete=false
+wmclassmatch=1
+
+[15]
+Description=Window settings for reaper
+clientmachinematch=0
+size=1793,1127
+sizerule=2
+title=FabFilter Pro-Q 3
+titlematch=2
+types=1
+wmclass=reaper
+wmclasscomplete=false
+wmclassmatch=1
+
+[16]
+Description=Window settings for reaper
+clientmachinematch=0
+size=1855,692
+sizerule=3
+title=FabFilter Timeless 2
+titlematch=2
+types=1
+wmclass=reaper
+wmclasscomplete=false
+wmclassmatch=1
+
+[17]
+Description=Window settings for reaper
+above=true
+clientmachine=localhost
+clientmachinematch=0
+size=450,535
+sizerule=2
+title=AMBEO Orbit
+titlematch=2
+types=1
+wmclass=reaper
+wmclasscomplete=false
+wmclassmatch=1
+
+[18]
+Description=Window settings for reaper
+above=true
+clientmachine=localhost
+clientmachinematch=0
+minsize=1920,1080
+size=1834,1298
+sizerule=2
+title=Aalto
+titlematch=2
+types=1
+wmclass=reaper
+wmclasscomplete=false
+wmclassmatch=1
+
+[19]
+Description=Window settings for reaper
+above=true
+clientmachine=localhost
+clientmachinematch=0
+minsize=1920,1080
+placement=Centered
+size=2472,1390
+sizerule=2
+title=Kaivo
+titlematch=2
+types=1
+wmclass=reaper
+wmclasscomplete=false
+wmclassmatch=1
+
+[2]
+Description=Application settings for clickup
+clientmachine=localhost
+clientmachinematch=0
+minsize=1329,1123
+opacityactive=100
+shortcut=Meta+F
+shortcutrule=2
+size=1329,1123
+title=Kokopelli Interfaces
+wmclass=clickup
+wmclassmatch=1
+
+[20]
+Description=Window settings for reaper
+above=true
+clientmachine=localhost
+clientmachinematch=0
+minsize=1920,1080
+placement=Centered
+size=1161,751
+sizerule=2
+title=Addictive Drums 2 (XLN Audio)
+titlematch=2
+types=1
+wmclass=reaper
+wmclassmatch=1
+
+[21]
+Description=Window settings for reaper
+above=true
+clientmachine=localhost
+clientmachinematch=0
+minsize=1920,1080
+size=2006,1437
+sizerule=2
+title=TAL U-No-LX-V2 Plugin
+titlematch=2
+types=1
+wmclass=reaper
+
+[22]
+Description=Application settings for qjackctl
+above=true
+aboverule=2
+clientmachine=localhost
+clientmachinematch=0
+minsize=1920,1080
+noborder=false
+size=1200,900
+title=TAL U-No-LX-V2 Plugin
+wmclass=qjackctl
+wmclassmatch=1
+
+[23]
+Description=Application settings for makie
+above=true
+clientmachine=localhost
+clientmachinematch=0
+minsize=1920,1080
+minsizerule=2
+size=1200,900
+title=REAPER((?!initializing).)*$
+wmclass=makie
+wmclassmatch=1
+
+[24]
+Description=Application settings for gksqt
+above=true
+clientmachine=localhost
+shortcut=Meta+Alt+T
+size=1200,900
+sizerule=3
+title=REAPER((?!initializing).)*$
+wmclass=gksqt
+wmclassmatch=1
+
+[25]
+Description=Application settings for rack
+above=true
+aboverule=3
+clientmachine=localhost
+clientmachinematch=0
+shortcut=Meta+Alt+T
+size=3840,2160
+title=REAPER((?!initializing).)*$
+wmclass=rack
+wmclassmatch=1
+
+[26]
+Description=Application settings for glfw-application
+above=true
+clientmachine=localhost
+clientmachinematch=0
+shortcut=Meta+Alt+T
+size=3840,2160
+sizerule=3
+title=REAPER((?!initializing).)*$
+wmclass=glfw-application
+wmclassmatch=1
+
+[27]
+Description=Application settings for dragon-drag-and-drop
+above=true
+aboverule=2
+clientmachine=localhost
+clientmachinematch=0
+placementrule=2
+shortcut=Meta+Alt+T
+title=REAPER((?!initializing).)*$
+type=0
+wmclass=dragon-drag-and-drop
+wmclassmatch=1
+
+[28]
+Description=Application settings for mpv
+clientmachine=localhost
+clientmachinematch=0
+placementrule=2
+shortcut=Meta+Alt+T
+title=REAPER((?!initializing).)*$
+wmclass=gl mpv
+wmclasscomplete=true
+wmclassmatch=1
+
+[29]
+Description=Application settings for reaper
+clientmachine=localhost
+clientmachinematch=0
+minimize=true
+shortcut=Meta+Alt+T
+shortcutrule=2
+title=REAPER((?!initializing).)*$
+titlematch=3
+windowrole=pop-up
+wmclass=reaper
+wmclassmatch=2
+
+[3]
+Description=Application settings for firefox
+activity[$d]
+activityrule[$d]
+clientmachine=localhost
+clientmachinematch=0
+minsize=1329,1123
+opacityactive=100
+shortcut=Meta+G
+shortcutrule=2
+size=1329,1123
+title=Kokopelli Interfaces
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[30]
+Description=Application settings for airwave-manager
+clientmachine=localhost
+clientmachinematch=0
+minimize=true
+noborderrule=2
+shortcut=Meta+F
+title=REAPER((?!initializing).)*$
+windowrole=pop-up
+wmclass=airwave-manager
+wmclassmatch=1
+
+[31]
+Description=Application settings for vimiv
+clientmachine=localhost
+clientmachinematch=0
+minimize=true
+noborder=true
+noborderrule=3
+shortcut=Meta+F
+title=Google Calendar - Week of January 20, 2019
+windowrole=pop-up
+wmclass=vimiv
+wmclassmatch=1
+
+[32]
+Description=Hide Title Bar please
+clientmachine=localhost
+clientmachinematch=0
+minimize=true
+noborder=true
+noborderrule=2
+opacityactive=95
+placement=6
+shortcut=Meta+F
+size=1920,2160
+title=Google Calendar - Week of January 20, 2019
+windowrole=pop-up
+wmclass=.*
+wmclassmatch=3
+
+[33]
+Description=Application settings for firefox
+clientmachine=localhost
+clientmachinematch=0
+minimize=true
+noborder=true
+noborderrule=3
+opacityactive=95
+placement=6
+shortcut=Meta+F
+shortcutrule=2
+size=1920,2160
+title=Google Calendar - Week of January 20, 2019
+titlematch=0
+type=0
+windowrole=pop-up
+wmclass=kokopelli interfaces
+wmclasscomplete=true
+wmclassmatch=2
+
+[34]
+Description=Application settings for vlc
+clientmachine=localhost
+clientmachinematch=0
+minimize=true
+minimizerule=3
+noborder=true
+opacityactive=95
+placement=6
+shortcut=Meta+Alt+F
+size=1920,2160
+title=Google Calendar - Week of January 20, 2019
+windowrole=pop-up
+wmclass=vlc
+wmclassmatch=1
+
+[35]
+Description=Window settings for google-chrome
+activity=b99c391f-3a38-4798-baa0-62b46f359b1f
+clientmachine=archie
+desktops=40eca1d3-a252-4331-a023-8aa7dbfc2a73
+noborder=true
+noborderrule=2
+opacityactive=95
+placement=6
+shortcut=Meta+Alt+F
+shortcutrule=2
+size=1920,2160
+title=Google Calendar - Week of January 20, 2019
+typerule=2
+types=1
+windowrole=pop-up
+windowrolematch=1
+wmclass=calendar.google.com__calendar_r_week google-chrome
+wmclasscomplete=true
+wmclassmatch=1
+
+[36]
+Description=Window settings for google-chrome
+above=true
+activity=b99c391f-3a38-4798-baa0-62b46f359b1f
+clientmachine=archie
+desktops=40eca1d3-a252-4331-a023-8aa7dbfc2a73
+noborder=true
+opacityactive=97
+opacityinactive=33
+placement=6
+shortcut=Meta+G
+shortcutrule=3
+size=1920,2160
+skiptaskbar=true
+title=Google Calendar - Week of January 20, 2019
+types=1
+windowrole=pop-up
+windowrolematch=1
+wmclass=calendar.google.com__calendar_r_week google-chrome
+wmclassmatch=1
+
+[37]
+Description=Application settings for emacs
+activity=b99c391f-3a38-4798-baa0-62b46f359b1f
+clientmachine=archie
+desktops=40eca1d3-a252-4331-a023-8aa7dbfc2a73
+fpplevel=4
+fpplevelrule=2
+fsplevelrule=2
+noborder=true
+noborderrule=2
+placementrule=2
+shortcut=Meta+E
+shortcutrule=2
+size=1696,2112
+sizerule=3
+skiptaskbar=true
+skiptaskbarrule=2
+title=Inbox (1) - michaelampm@gmail.com - Gmail
+windowrole=pop-up
+wmclass=emacs
+wmclassmatch=1
+
+[38]
+Description=Window settings for google-chrome
+activity=b99c391f-3a38-4798-baa0-62b46f359b1f
+clientmachine=archie
+desktops=40eca1d3-a252-4331-a023-8aa7dbfc2a73
+fsplevel=4
+noborder=true
+noborderrule=2
+opacityactive=100
+opacityinactive=73
+shortcut=Meta+Alt+R
+size=1844,1764
+title=Inbox (1) - michaelampm@gmail.com - Gmail
+types=1
+windowrole=pop-up
+windowrolematch=1
+wmclass=crx_pjkljhegncpnkpknbcohdijeoejaedia google-chrome
+wmclasscomplete=true
+wmclassmatch=1
+
+[39]
+Description=Application settings for kcmshell5
+activity=b99c391f-3a38-4798-baa0-62b46f359b1f
+clientmachine=localhost
+desktops=40eca1d3-a252-4331-a023-8aa7dbfc2a73
+fsplevel=4
+noborder=true
+opacityactive=100
+opacityinactive=73
+shortcut=Meta+Alt+R
+size=1844,1764
+sizerule=1
+title=.*: .*- Track [0-9]*
+windowrole=pop-up
+wmclass=kcmshell5
+wmclassmatch=1
+
+[4]
+Description=Application settings for firefox
+activity[$d]
+activityrule[$d]
+clientmachine=localhost
+clientmachinematch=0
+decocolor[$d]
+decocolorrule[$d]
+minsize=1329,1123
+opacityactive=100
+placement=6
+shortcut=Meta+F
+shortcutrule=2
+size=1329,1123
+title=Kokopelli Interfaces
+titlematch=2
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[40]
+Description=Application settings for alacrittyd
+activity=b99c391f-3a38-4798-baa0-62b46f359b1f
+activityrule=2
+clientmachine=archie
+desktops=40eca1d3-a252-4331-a023-8aa7dbfc2a73
+desktopsrule=2
+fsplevel=4
+noborder=true
+opacityactive=100
+opacityinactive=73
+shortcut=Meta+Alt+R
+shortcutrule=3
+title=.*: .*- Track [0-9]*
+wmclass=alacritty
+wmclassmatch=1
+
+[41]
+Description=Application settings for google-chrome
+activity=62a11013-dead-488a-8944-dc52018f1e92
+activityrule=4
+clientmachine=archie
+fsplevel=4
+noborder=true
+noborderrule=2
+opacityactive=100
+opacityinactive=73
+shortcut=Meta+Alt+G
+shortcutrule=2
+title=.*: .*- Track [0-9]*
+wmclass=google-chrome
+wmclassmatch=1
+
+[42]
+Description=Window settings for .*: .*- Track [0-9]*
+acceptfocusrule=2
+clientmachine=archie
+fsplevel=4
+fsplevelrule=2
+opacityactive=100
+opacityactiverule=2
+opacityinactive=73
+opacityinactiverule=2
+title=.*: .*- Track [0-9]*
+titlematch=3
+typerule=2
+wmclass=reaper
+wmclassmatch=1
+
+[5]
+Description=Window settings for kitty
+clientmachine=localhost
+clientmachinematch=0
+decocolor[$d]
+decocolorrule[$d]
+fullscreen=true
+minsize=1329,1123
+noborder=true
+opacityactive=100
+opacityactiverule=2
+placement=6
+shortcut=Meta+F
+shortcutrule=2
+size=1329,1123
+title=zsh
+titlematch=1
+types=1
+wmclass=kitty
+wmclassmatch=1
+
+[5eca03ea-bcf2-458a-8b6c-aab47170abb7]
+Description=Application settings for firefox
+clientmachine=localhost
+shortcut=Meta+G
+shortcutrule=3
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[6]
+Description=Application settings for krita
+clientmachine=localhost
+clientmachinematch=0
+decocolor[$d]
+decocolorrule[$d]
+fullscreen=true
+minsize=1329,1123
+noborder=true
+opacityactive=79
+placement=6
+position=4498,175
+shortcut=Meta+A
+shortcutrule=2
+size=1329,1123
+title=Quick Adder
+wmclass=krita
+wmclassmatch=1
+
+[7]
+Description=Window settings for reaper
+clientmachinematch=0
+fsplevelrule=2
+fullscreen=true
+minsize=1329,1123
+minsizerule=1
+noborder=true
+opacityactive=79
+placement=6
+position=4498,175
+shortcut=Meta+T
+size=1329,1123
+sizerule=2
+title=Quick Adder
+titlematch=2
+types=1
+wmclass=reaper
+wmclassmatch=1
+
+[8]
+Description=Application settings for reaper
+clientmachinematch=0
+fsplevel=3
+fullscreen=true
+minsize=1611,1042
+noborder=true
+opacityactive=79
+placement=6
+position=4498,175
+shortcut=Meta+T
+shortcutrule=1
+size=1605,1226
+title=ranger
+wmclass=reaper - registered
+wmclassmatch=2
+
+[9]
+Description=Application settings for ranger
+clientmachinematch=0
+desktop[$d]
+desktoprule[$d]
+fsplevel=3
+fullscreen=true
+minsize=1611,1042
+noborder=true
+opacityactive=79
+opacityactiverule=2
+placementrule=2
+position=4498,175
+shortcut=Meta+R
+size=1605,1226
+sizerule=3
+title=ranger
+wmclass=ranger
+wmclassmatch=1
+
+[9e23c3ce-9f2a-46ee-9abf-d724723c9391]
+Description=Application settings for kitty
+below=true
+belowrule=2
+clientmachine=localhost
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+shaderule=1
+skiptaskbar=true
+skiptaskbarrule=2
+wmclass=kitty
+wmclassmatch=1
+
+[Directories]
+dir_pixmap[$d]
+
+[General]
+BrowserApplication[$d]
+ColorScheme[$d]
+Name[$d]
+count=42
+fixed[$d]
+font[$d]
+menuFont[$d]
+rules=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42
+shadeSortColumn[$d]
+smallestReadableFont[$d]
+toolBarFont[$d]
+
+[Icons]
+Theme[$d]
+
+[KDE]
+ChangeCursor[$d]
+ColorScheme[$d]
+LookAndFeelPackage[$d]
+contrast[$d]
+widgetStyle[$d]
+
+[KFileDialog Settings]
+Breadcrumb Navigation[$d]
+
+[Paths]
+Trash[$d]
+
+[PreviewSettings]
+MaximumSize[$d]
+camera[$d]
+file[$d]
+fonts[$d]
+
+[aadf98ff-0418-4b82-ac6c-12fe20e640d1]
+Description=Application settings for firefox
+clientmachine=localhost
+shortcut=Meta+G
+shortcutrule=2
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[b14d2f34-780c-41fe-aa46-49b649b9cfa2]
+Description=Application settings for clickup
+clientmachine=localhost
+shortcut=Meta+F
+shortcutrule=2
+wmclass=clickup
+wmclassmatch=1
+
+[d12adaec-95ce-471d-9ee8-a23cb893aa70]
+Description=Application settings for kitty
+clientmachine=localhost
+types=257
+wmclass=kitty
+wmclassmatch=1
+
+[ea5a34e0-aa7f-444a-9f60-d96fbc5589ac]
+Description=Application settings for clickup
+clientmachine=localhost
+shortcut=Meta+F
+shortcutrule=3
+wmclass=clickup
+wmclassmatch=1

@@ -1,0 +1,24 @@
+[Added Associations]
+application/json=emacs.desktop;
+application/octet-stream=org.inkscape.Inkscape.desktop;
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;firefox.desktop;org.inkscape.Inkscape.desktop;libreoffice-draw.desktop;krita_pdf.desktop;gimp.desktop;org.gnome.Evince.desktop;wine-extension-pdf.desktop;open-fuse-iso.desktop;
+application/postscript=org.inkscape.Inkscape.desktop;
+image/png=org.inkscape.Inkscape.desktop;
+image/svg+xml=org.inkscape.Inkscape.desktop;
+inode/directory=ranger.desktop;org.kde.dolphin.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-UXDZY0.desktop;
+
+[Default Applications]
+application/json=emacs.desktop;
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;
+application/x-gnome-saved-search=nautilus.desktop
+inode/directory=nautilus.desktop
+x-scheme-handler/aether=Aether.desktop
+x-scheme-handler/clickup=clickup.desktop
+x-scheme-handler/exodus=Exodus.desktop
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/lbry=lbry.desktop
+x-scheme-handler/nxm=ModOrganizer-steamtinkerlaunch-dl.desktop
+x-scheme-handler/nxm-protocol=ModOrganizer-steamtinkerlaunch-dl.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-UXDZY0.desktop

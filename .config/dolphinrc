@@ -1,0 +1,61 @@
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+
+[DownloadDialog Settings]
+Height 1080=494
+Width 1920=700
+
+[General]
+Version=201
+ViewPropsTimestamp=2019,11,24,11,51,47
+
+[IconsMode]
+FontWeight=50
+
+[KPropertiesDialog]
+DP-2 Height 1080=472
+DP-2 Width 1920=438
+
+[MainWindow]
+DP-0 Height 1920x1080=924
+DP-0 Width 1920x1080=1378
+DP-0 XPosition 1920x1080=204
+DP-0 YPosition 1920x1080=10
+DP-2 Height 1080=965
+DP-2 Height 1920x1080=1059
+DP-2 Width 1920=1474
+DP-2 Width 1920x1080=1460
+DP-2 XPosition=0
+DP-2 XPosition 1920x1080=0
+DP-2 YPosition=69
+DP-2 YPosition 1920x1080=21
+Height 1080=645
+Height 1200=1200
+Height 1440=932
+Height 2160=945
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+Width 1920=746
+Width 2133=1067
+Width 2560=1280
+Width 3840=1253
+
+[Notification Messages]
+ConfirmDelete=true
+
+[Open-with settings]
+CompletionMode=1
+History=ema
+
+[PreviewSettings]
+Plugins=fontthumbnail,svgthumbnail,mltpreview,opendocumentthumbnail,blenderthumbnail,djvuthumbnail,kraorathumbnail,rawthumbnail,comicbookthumbnail,imagethumbnail,ebookthumbnail,gsthumbnail,windowsexethumbnail,ffmpegthumbs,exrthumbnail,windowsimagethumbnail,audiothumbnail,directorythumbnail,appimagethumbnail,jpegthumbnail
+
+[Search]
+Location=Everywhere
+
+[SettingsDialog]
+Height 1080=462
+Width 1920=560

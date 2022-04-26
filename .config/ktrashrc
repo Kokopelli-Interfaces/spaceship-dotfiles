@@ -1,0 +1,13 @@
+[/home/michael/.local/share/Trash]
+Days=7
+LimitReachedAction=0
+Percent=10
+UseSizeLimit=true
+UseTimeLimit=true
+
+[/home/michael/Media/.Trash-1000]
+Days=7
+LimitReachedAction=0
+Percent=10
+UseSizeLimit=true
+UseTimeLimit=false

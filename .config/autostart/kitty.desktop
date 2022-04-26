@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=System;TerminalEmulator;
+Comment[en_CA]=A fast, feature full, GPU based terminal emulator
+Comment=A fast, feature full, GPU based terminal emulator
+Exec=kitty
+GenericName[en_CA]=Terminal emulator
+GenericName=Terminal emulator
+Icon=kitty
+MimeType=
+Name[en_CA]=kitty
+Name=kitty
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+TryExec=kitty
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
