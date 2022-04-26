@@ -41,9 +41,9 @@ class sk_select(Command):
     """
     def execute(self):
         import subprocess
-        command ="fd -L . | sed 1d | cut -b3- | sk"
+        command ="fd -L -t f . | sed 1d | cut -b3- | sk"
         if self.fm.settings['show_hidden']:
-            command ="fd -L . --hidden | sed 1d | cut -b3- | sk"
+            command ="fd -t f -L . --hidden | sed 1d | cut -b3- | sk"
 
         sk = self.fm.execute_command(command, stdout=subprocess.PIPE)
         stdout, stderr = sk.communicate()

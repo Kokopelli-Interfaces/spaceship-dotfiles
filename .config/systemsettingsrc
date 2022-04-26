@@ -1,9 +1,10 @@
 [FileDialogSize]
-DP-0 Window-Maximized 1920x1080=true
+DP-0 Height 1920x1080=1061
+DP-0 Width 1920x1080=1920
 
 [KFileDialog Settings]
-Recent Files[$e]=RobotoMono-Regular.ttf,file:$HOME/Downloads/koko under sun.jpg,file:$HOME/Downloads/Bowed Tibetan bells.zip,file:$HOME/Program/bin/screen-off
-Recent URLs[$e]=file:$HOME/Media/,file:$HOME/Program/bin/,file:$HOME/Program/,file:$HOME/Downloads/
+Recent Files[$e]=RobotoMono-Regular.ttf,file:$HOME/Downloads/starkiteckt-designs-cosmic-peaks.jpg,file:$HOME/Downloads/koko under sun.jpg,file:$HOME/Downloads/Bowed Tibetan bells.zip,file:$HOME/Program/bin/screen-off
+Recent URLs[$e]=file:$HOME/Media/,file:$HOME/Program/bin/,file:$HOME/Program/,file:$HOME/Downloads/,file:$HOME/
 iconViewIconSize=109
 listViewIconSize=15
 
@@ -16,10 +17,11 @@ DP-0 Height 1080=886
 DP-0 Height 1920x1080=781
 DP-0 Width 1920=1024
 DP-0 Width 1920x1080=1052
+DP-0 Window-Maximized 1920x1080=true
 DP-0 XPosition=0
 DP-0 XPosition 1920x1080=453
 DP-0 YPosition=0
-DP-0 YPosition 1920x1080=0
+DP-0 YPosition 1920x1080=178
 DP-2 Height 1080=831
 DP-2 Height 1920x1080=886
 DP-2 Width 1920=1783
@@ -31,6 +33,7 @@ DP-2 YPosition 1920x1080=47
 Height 1080=886
 Height 1440=1412
 MenuBar=Disabled
+RestorePositionForNextInstance=false
 State=AAAA/wAAAAD9AAAAAAAABBwAAAMNAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1024
@@ -39,3 +42,6 @@ Width 2560=1629
 [Open-with settings]
 CompletionMode=1
 History=flame,/home/michael/Program/bin/screen-off
+
+[UiSettings]
+ColorScheme=Default
