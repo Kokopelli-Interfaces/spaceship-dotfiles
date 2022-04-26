@@ -137,6 +137,6 @@ zle     -N   run_search_history
 }
 
 run_scan() {
-    sk --ansi -i -c 'rg --always-color ." {}"'
+    sk --ansi -i -c 'rg ." {}"'
 }
 zle -N run_scan

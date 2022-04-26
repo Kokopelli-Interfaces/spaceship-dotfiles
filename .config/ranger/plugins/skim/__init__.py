@@ -55,10 +55,10 @@ class sk_select(Command):
                 self.fm.select_file(sk_file)
 
 
-# Now, simply bind this function to a key, by adding this to your ~/.config/ranger/rc.conf: map <C-g> sk_search
-class sk_search(Command):
+# Now, simply bind this function to a key, by adding this to your ~/.config/ranger/rc.conf: map <C-g> sk_scan
+class sk_scan(Command):
     """
-    :sk_search
+    :sk_scan
 
     Find a file using sk and rg.
     """
