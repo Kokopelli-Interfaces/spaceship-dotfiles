@@ -60,9 +60,9 @@ alias calculate='julia'
 
 ## Tmux
 #### A terminal-multiplexer for running command line processes in parallel. Use the following alias to create or rejoin the "Home" session. Try typing "<Ctrl+s>/" to split the terminal vertically. Type "<Ctrl+s>?" for a guide.
-alias tm='tmux attach -t \
-"Home" || tmux new-session\
- -c ~ -s "Home"'
+alias deck='tmux attach -t \
+"Deck" || tmux new-session\
+ -c ~ -s "Deck"'
 
 
 ## Command Utilities
